@@ -1,0 +1,72 @@
+#header {
+    height: 50px;
+    background-color: black;
+    
+}
+
+#nav {
+    display: inline-block;
+    /* height: ; */
+}
+
+#nav li{
+    display: inline-block;
+    position:relative;
+    
+    /* viết trên 1 dòng */
+}
+
+#nav li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 12px;
+    display: block;
+    text-transform:capitalize;
+}
+
+#nav li:hover a{
+    background-color: #ccc;
+}
+
+#header .sub-nav {
+    display: none;
+    position: absolute;
+    box-shadow: 0 0 4px rgba(0, 0, 0 ,0.4);
+}
+
+#header li:hover .sub-nav {
+    display: block;
+}
+
+#header .sub-nav li{
+    line-height: 28px;
+    padding: 0 24px;
+    display: block;
+}
+
+#header .sub-nav li:hover {
+    background: #ccc;
+}
+
+/* dowload */
+#header #btn-dowload {
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: rgb(22, 6, 243);
+   
+}
+
+#header #btn-dowload a{
+    color: #fff;
+    text-decoration: none;
+    text-transform:capitalize;
+    padding: 0px 12px;
+}  
+
+#header #btn-dowload:hover{
+    background-color: blue;
+    color: #fff;
+}
